@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple OCR</string>
+    <string name="txt_message">No Text Available</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="to">TO</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="translation">Translation</string>
+    <string name="translate">Translate</string>
+
+</resources>

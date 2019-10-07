@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "166614605688",
+    "firebase_url": "https://banglaarabicocr.firebaseio.com",
+    "project_id": "banglaarabicocr",
+    "storage_bucket": "banglaarabicocr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166614605688:android:40932b166412145568f28d",
+        "android_client_info": {
+          "package_name": "com.maruf.banglaarabicocrdictionary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166614605688-uvkvame0vnurgt2926g5fe54pigjo1o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maruf.banglaarabicocrdictionary",
+            "certificate_hash": "329ca7acd8a0342aa3110328457d299f8e28c6dc"
+          }
+        },
+        {
+          "client_id": "166614605688-ojmadu888kefgcq027gmp05spmehlcvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzRDJhh5lIZ7wRyqBU9P9On3MisdaKKDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166614605688-ojmadu888kefgcq027gmp05spmehlcvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
