@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_margin="8dp"
-    android:weightSum="5"
-    tools:context="com.maruf.banglaarabicocrdictionary.MainActivity">
+    android:layout_height="match_parent">
 
-<RelativeLayout
 
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:weightSum="5"
+        tools:context="com.maruf.banglaarabicocrdictionary.MainActivity">
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:spinnerMode="dropdown"
-        android:layout_alignParentLeft="true" />
+        android:layout_margin="8dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/to"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:spinnerMode="dropdown"
+            android:layout_alignParentLeft="true" />
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:spinnerMode="dropdown"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/to"/>
 
-</RelativeLayout>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:spinnerMode="dropdown"/>
+
+    </RelativeLayout>
 
     <EditText
         android:id="@+id/editText"
@@ -59,12 +67,19 @@
         android:text="@string/translate"/>
 
     <TextView
-        android:id="@+id/translation"
+        android:id="@+id/translation_tv"
+        android:layout_margin="4dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-       />
+        />
 
 
 
-</LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
